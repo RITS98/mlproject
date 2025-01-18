@@ -2,42 +2,42 @@
 
 #### Directory Structure
 
-Directory structure:
-└── rits98-mlproject/
-    ├── README.md
-    ├── app.py
-    ├── requirements.txt
-    ├── setup.py
-    ├── artifacts/
-    │   ├── data.csv
-    │   ├── test.csv
-    │   ├── train.csv
-    │   ├── models/
-    │   │   └── model.pkl
-    │   └── preprocessor/
-    │       └── preprocessor.pkl
-    ├── notebook/
-    │   ├── EDA Student Performance.ipynb
-    │   ├── Model Training.ipynb
-    │   └── data/
-    │       └── stud.csv
-    ├── src/
-    │   ├── __init__.py
-    │   ├── exception.py
-    │   ├── logger.py
-    │   ├── utils.py
-    │   ├── components/
-    │   │   ├── __init__.py
-    │   │   ├── data_ingestion.py
-    │   │   ├── data_transformation.py
-    │   │   └── model_trainer.py
-    │   └── pipeline/
-    │       ├── __init__.py
-    │       ├── predict_pipeline.py
-    │       └── train_pipeline.py
-    └── templates/
-        ├── home.html
-        └── index.html
+Directory structure:  
+└── rits98-mlproject/  
+    ├── README.md  
+    ├── app.py  
+    ├── requirements.txt  
+    ├── setup.py  
+    ├── artifacts/  
+    │   ├── data.csv  
+    │   ├── test.csv  
+    │   ├── train.csv  
+    │   ├── models/  
+    │   │   └── model.pkl  
+    │   └── preprocessor/  
+    │       └── preprocessor.pkl  
+    ├── notebook/  
+    │   ├── EDA Student Performance.ipynb  
+    │   ├── Model Training.ipynb  
+    │   └── data/  
+    │       └── stud.csv  
+    ├── src/  
+    │   ├── __init__.py  
+    │   ├── exception.py  
+    │   ├── logger.py  
+    │   ├── utils.py  
+    │   ├── components/  
+    │   │   ├── __init__.py  
+    │   │   ├── data_ingestion.py  
+    │   │   ├── data_transformation.py  
+    │   │   └── model_trainer.py  
+    │   └── pipeline/  
+    │       ├── __init__.py  
+    │       ├── predict_pipeline.py  
+    │       └── train_pipeline.py  
+    └── templates/  
+        ├── home.html  
+        └── index.html  
 
 
 This project is about predicting the math score of a student when different parameters are given.
