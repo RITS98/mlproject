@@ -4,58 +4,58 @@
 
 Directory structure:  
 .
-├── README.md
-├── app.py
-├── artifacts
-│   ├── data.csv
-│   ├── models
-│   │   └── model.pkl
-│   ├── preprocessor
-│   │   └── preprocessor.pkl
-│   ├── test.csv
-│   └── train.csv
-├── mlproject.egg-info
-│   ├── PKG-INFO
-│   ├── SOURCES.txt
-│   ├── dependency_links.txt
-│   ├── requires.txt
-│   └── top_level.txt
-├── notebook
-│   ├── EDA Student Performance.ipynb
-│   ├── Model Training.ipynb
-│   └── data
-│       └── stud.csv
-├── requirements.txt
-├── setup.py
-├── src
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-312.pyc
-│   │   ├── exception.cpython-312.pyc
-│   │   ├── logger.cpython-312.pyc
-│   │   └── utils.cpython-312.pyc
-│   ├── components
-│   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-312.pyc
-│   │   │   ├── data_transformation.cpython-312.pyc
-│   │   │   └── model_trainer.cpython-312.pyc
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   └── model_trainer.py
-│   ├── exception.py
-│   ├── logger.py
-│   ├── pipeline
-│   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-312.pyc
-│   │   │   └── predict_pipeline.cpython-312.pyc
-│   │   ├── predict_pipeline.py
-│   │   └── train_pipeline.py
-│   └── utils.py
-└── templates
-    ├── home.html
-    └── index.html
+├── README.md  
+├── app.py  
+├── artifacts  
+│   ├── data.csv  
+│   ├── models  
+│   │   └── model.pkl  
+│   ├── preprocessor  
+│   │   └── preprocessor.pkl  
+│   ├── test.csv  
+│   └── train.csv  
+├── mlproject.egg-info  
+│   ├── PKG-INFO  
+│   ├── SOURCES.txt  
+│   ├── dependency_links.txt  
+│   ├── requires.txt  
+│   └── top_level.txt  
+├── notebook  
+│   ├── EDA Student Performance.ipynb  
+│   ├── Model Training.ipynb  
+│   └── data  
+│       └── stud.csv  
+├── requirements.txt  
+├── setup.py  
+├── src   
+│   ├── __init__.py  
+│   ├── __pycache__  
+│   │   ├── __init__.cpython-312.pyc  
+│   │   ├── exception.cpython-312.pyc  
+│   │   ├── logger.cpython-312.pyc  
+│   │   └── utils.cpython-312.pyc  
+│   ├── components  
+│   │   ├── __init__.py  
+│   │   ├── __pycache__  
+│   │   │   ├── __init__.cpython-312.pyc  
+│   │   │   ├── data_transformation.cpython-312.pyc  
+│   │   │   └── model_trainer.cpython-312.pyc  
+│   │   ├── data_ingestion.py  
+│   │   ├── data_transformation.py  
+│   │   └── model_trainer.py  
+│   ├── exception.py  
+│   ├── logger.py  
+│   ├── pipeline  
+│   │   ├── __init__.py  
+│   │   ├── __pycache__  
+│   │   │   ├── __init__.cpython-312.pyc  
+│   │   │   └── predict_pipeline.cpython-312.pyc  
+│   │   ├── predict_pipeline.py  
+│   │   └── train_pipeline.py  
+│   └── utils.py  
+└── templates  
+    ├── home.html  
+    └── index.html  
 
 
 This project is about predicting the math score of a student when different parameters are given.
